@@ -18,6 +18,7 @@ html, body {
   background-size: cover;
   position: relative;
   height: 30vw;
+  overflow: hidden;
 }
 
 .bg-angled {
@@ -30,6 +31,7 @@ html, body {
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     z-index: 2;
+
 }
 
 .header-title {
