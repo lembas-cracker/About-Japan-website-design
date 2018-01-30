@@ -132,14 +132,22 @@ html, body {
   font-weight: 600;
   line-height: 1.2;
 }
-.git-ico {
-  width: 35px;
-  height: 35px;
+
+#git-ico {
+  width: 33px;
+  height: 33px;
   margin-left: 10px;
+}
+#git-ico:hover path{
+  fill: #f1a2c7;
+  transition: 0.5s;
+  pointer-events: auto;
 }
 .gthb-button:hover {
   text-decoration: none;
   color: #f1a2c7;
+  transition: 0.5s;
+  border: 3px solid #f1a2c7 !important;
 }
 .gthb-button {
   padding: 0.8em 1.5em 0.9em 1.5em;
