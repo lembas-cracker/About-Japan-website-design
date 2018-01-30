@@ -57,7 +57,7 @@ html, body {
 .header-row {
   height: 20vh;
 }
-.paragraph, .p-project {
+.paragraph, .p-project, .dropdown-child {
    font-family: 'NunitoSans-Light';
    font-size: 1.4em;
    line-height: 2;
@@ -85,14 +85,13 @@ html, body {
   text-align: center;
   font-size: 1.2em;
   font-weight: 600;
-  line-height: 0.5em;
+  line-height: 0.8em;
   text-transform: uppercase;
   cursor: pointer;
 }
 .heading2:hover {
   text-decoration: none;
-  font-size: 1em;
-  color: rgba(51, 51, 51, 0.8);
+  color: rgba(51, 51, 51, 0.7);
   transition: 0.5s;
 }
 
@@ -160,6 +159,7 @@ html, body {
 
 .resources-container {
  margin-top: 25px;
+ height: 800px;
 }
 .resources-imgs {
   width: 200px;
@@ -169,4 +169,31 @@ html, body {
 }
 .resources-row {
   margin-top: 40px;
+}
+
+.dropdown-child {
+  pointer-events: auto;
+}
+
+.dropdown-header {
+  font-family: 'NunitoSans-semi-Bold';
+  color: #2d3252;
+  text-align: center;
+}
+.dropdown-child {
+  padding: 15px;
+}
+.dropdown-menu > li > a:hover {
+  background-color: rgba(246, 229, 255, 0.4);
+  transition: 1s;
+  background-image: none;
+}
+.dropdown-menu, .dropdown-menu > li > a {
+  width: 15vw;
+}
+.dropdown-menu > li > a {
+  text-align: center;
+}
+.dropdown-toggle::after {
+  display:none !important;
 }
