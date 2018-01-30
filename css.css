@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Rubik Mono';
-  src: url('RubikMonoOne-Regular.ttf')  format('truetype');
+  src: url('fonts/RubikMonoOne-Regular.ttf')  format('truetype');
   font-family: 'NunitoSans-Ex-Bold';
-  src: url('NunitoSans-ExtraBold.ttf')  format('truetype');
+  src: url('fonts/NunitoSans-ExtraBold.ttf')  format('truetype');
   font-family: 'NunitoSans-Light';
-  src: url('NunitoSans-Light.ttf')  format('truetype');
+  src: url('fonts/NunitoSans-Light.ttf')  format('truetype');
 }
 
 html, body {
@@ -25,7 +25,7 @@ html, body {
     position: absolute;
     left: -50%;
     top: 94%;
-    width: 200%;
+    right: 0;
     height: 10rem;
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
