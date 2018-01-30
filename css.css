@@ -198,7 +198,7 @@ html, body {
 }
 
 #footer {
-  margin-top: 50px;
+  margin-top: 130px;
   min-height: 420px;
   overflow: hidden;
   background: url(footer.png) no-repeat center bottom;
@@ -208,5 +208,5 @@ html, body {
   position: relative;
 }
 .final-words {
-  margin-top: 200px;
+  margin-top: 120px;
 }
