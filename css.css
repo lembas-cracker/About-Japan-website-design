@@ -1,10 +1,18 @@
 @font-face {
-  font-family: 'Rubik Mono';
-  src: url('fonts/RubikMonoOne-Regular.ttf')  format('truetype');
-  font-family: 'NunitoSans-Ex-Bold';
-  src: url('fonts/NunitoSans-ExtraBold.ttf')  format('truetype');
-  font-family: 'NunitoSans-Light';
-  src: url('fonts/NunitoSans-Light.ttf')  format('truetype');
+font-family: 'Rubik Mono';
+src: url('fonts/RubikMonoOne-Regular.ttf') format('truetype');
+}
+@font-face {
+font-family: 'NunitoSans-semi-Bold';
+src: url('fonts/NunitoSans-SemiBold.ttf') format('truetype');
+}
+@font-face {
+font-family: 'NunitoSans-Ex-Bold';
+src: url('fonts/NunitoSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+font-family: 'NunitoSans-Light';
+src: url('fonts/NunitoSans-Light.ttf') format('truetype');
 }
 
 html, body {
@@ -12,6 +20,11 @@ html, body {
    margin: 0;
    padding: 0;
 }
+ /*background-image: linear-gradient(to left bottom,#0000 45%,rgba(246, 229, 255, 0.6) 0);
+   background-size: 100% 40%, cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   z-index: -5;*/
 
 #header {
   background-image: url("Header-img.jpg");
@@ -19,6 +32,7 @@ html, body {
   position: relative;
   height: 30vw;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .bg-angled {
@@ -43,12 +57,13 @@ html, body {
 .header-row {
   height: 20vh;
 }
-.paragraph {
+.paragraph, .p-project {
    font-family: 'NunitoSans-Light';
    font-size: 1.4em;
-   line-height: 1.7;
+   line-height: 2;
    letter-spacing: 0.03em;
    color: rgb(60, 64, 66);
+   pointer-events: none;
 }
 .heading {
   font-family: 'NunitoSans-Ex-Bold';
@@ -61,16 +76,35 @@ html, body {
   text-align: center;
   line-height: 1.3em;
   margin: 0 0 0.8em 0;
+  pointer-events: none;
+}
+.heading2{
+  font-family: 'NunitoSans-Ex-Bold';
+  padding-top: 10px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 0.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.heading2:hover {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgba(51, 51, 51, 0.8);
+  transition: 0.5s;
 }
 
 /*Section 1*/
 
-.section-1.container {
+.section.container {
   margin-top: 5em;
 }
-.islands, .fuji {
+.islands, .fuji, .people {
   width: 128px;
   height: 128px;
+  cursor: pointer;
 }
 .learn-about-h1 {
   margin-bottom: 0;
@@ -78,4 +112,61 @@ html, body {
 }
 .image-cont {
   margin-top: 4em;
+}
+.p-about {
+  font-family: 'NunitoSans-semi-Bold';
+  margin-top: 20px;
+}
+
+/*About project container*/
+
+.about-project {
+  margin-top: 90px;
+  height: 40vh;
+  background-color: rgba(246, 229, 255, 0.8);
+}
+.project-row {
+  height: 40vh;
+}
+.p-project {
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.git-ico {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+.gthb-button:hover {
+  text-decoration: none;
+  color: #f1a2c7;
+}
+.gthb-button {
+  padding: 0.8em 1.5em 0.9em 1.5em;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 2em;
+  width: 8vw;
+  border: 3px solid #e770a8 !important;
+  border-radius: 30px;
+  line-height: 1.5em;
+  color: #e770a8;
+  padding: 15px;
+  font-family: 'NunitoSans-Ex-Bold';
+}
+/*Resources container*/
+
+.resources-container {
+ margin-top: 25px;
+}
+.resources-imgs {
+  width: 200px;
+  height: 125px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.resources-row {
+  margin-top: 40px;
 }
