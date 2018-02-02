@@ -1,14 +1,14 @@
 //Drawer-1//
 $('.click-handler-1').click(function () {
   var offset = $(this).offset();
-  offset.top -= 500;
+  offset.top -= 860;
   $('.drawer').animate({
     scrollTop: offset.top,
 });
 });
 $('.click-handler-2').click(function () {
   var offset = $(this).offset();
-  offset.top += 180;
+  offset.top -= 140;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -16,7 +16,7 @@ $('.click-handler-2').click(function () {
 });
 $('.click-handler-3').click(function () {
   var offset = $(this).offset();
-  offset.top += 800;
+  offset.top += 420;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -24,7 +24,7 @@ $('.click-handler-3').click(function () {
 });
 $('.click-handler-4').click(function () {
   var offset = $(this).offset();
-  offset.top += 1400;
+  offset.top += 1030;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -32,7 +32,7 @@ $('.click-handler-4').click(function () {
 });
 $('.click-handler-5').click(function () {
   var offset = $(this).offset();
-  offset.top += 2350;
+  offset.top += 2020;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -40,7 +40,7 @@ $('.click-handler-5').click(function () {
 });
 $('.click-handler-6').click(function () {
   var offset = $(this).offset();
-  offset.top += 3450;
+  offset.top += 3100;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -50,7 +50,7 @@ $('.click-handler-6').click(function () {
 //Drawer-2//
 $('.click-handler-7').click(function () {
   var offset = $(this).offset();
-  offset.top -= 820;
+  offset.top -= 1020;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -58,7 +58,7 @@ $('.click-handler-7').click(function () {
 });
 $('.click-handler-8').click(function () {
   var offset = $(this).offset();
-  offset.top += 480;
+  offset.top += 330;
 
   $('.drawer').animate({
     scrollTop: offset.top,
@@ -66,32 +66,31 @@ $('.click-handler-8').click(function () {
 });
 $('.click-handler-9').click(function () {
   var offset = $(this).offset();
-  offset.top += 1480;
-
+  offset.top += 1320;
   $('.drawer').animate({
     scrollTop: offset.top,
 });
 });
+
+//Drawer-3//
+
 $('.click-handler-10').click(function () {
   var offset = $(this).offset();
-  offset.top -= 840;
-
+  offset.top -= 985;
   $('.drawer').animate({
     scrollTop: offset.top,
 });
 });
 $('.click-handler-11').click(function () {
   var offset = $(this).offset();
-  offset.top += 550;
-
+  offset.top += 440;
   $('.drawer').animate({
     scrollTop: offset.top,
 });
 });
 $('.click-handler-12').click(function () {
   var offset = $(this).offset();
-  offset.top += 1550;
-
+  offset.top += 1400;
   $('.drawer').animate({
     scrollTop: offset.top,
 });
