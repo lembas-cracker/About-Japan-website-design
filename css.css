@@ -1,3 +1,4 @@
+@import url("http://cdnjs.cloudflare.com/ajax/libs/octicons/3.1.0/octicons.css");
 @font-face {
 font-family: 'Rubik Mono';
 src: url('fonts/RubikMonoOne-Regular.ttf') format('truetype');
@@ -14,7 +15,6 @@ src: url('fonts/NunitoSans-ExtraBold.ttf') format('truetype');
 font-family: 'NunitoSans-Light';
 src: url('fonts/NunitoSans-Light.ttf') format('truetype');
 }
-
 html, body {
    font-size: 81.25%;
    margin: 0;
@@ -133,16 +133,8 @@ html, body {
   line-height: 1.2;
   margin-top: 30px;
 }
+.octicon-mark-github {
 
-#git-ico {
-  width: 33px;
-  height: 33px;
-  margin-left: 10px;
-}
-#git-ico:hover path{
-  fill: #f1a2c7;
-  transition: 0.5s;
-  pointer-events: auto;
 }
 .gthb-button:hover {
   text-decoration: none;
