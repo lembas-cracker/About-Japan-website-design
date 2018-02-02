@@ -131,6 +131,7 @@ html, body {
   font-size: 2.5em;
   font-weight: 600;
   line-height: 1.2;
+  margin-top: 30px;
 }
 
 #git-ico {
@@ -162,6 +163,7 @@ html, body {
   color: #e770a8;
   padding: 15px;
   font-family: 'NunitoSans-Ex-Bold';
+  margin-bottom: 25px;
 }
 /*Resources container*/
 
@@ -217,4 +219,85 @@ html, body {
 }
 .final-words {
   margin-top: 120px;
+}
+
+/*Drawers/Drawer-1*/
+
+.drawer {
+  position: fixed;
+  overflow: auto;
+  height: 100vh;
+  width: 550px;
+  background-color: black;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  transition: right 1s ease;
+  text-align: right;
+}
+#drawer-1 {
+  background-color: #222744;
+  background-image: linear-gradient(to left bottom,#0000 50%,rgba(126, 100, 142, 0.1) 0);
+   background-size: 100% 100%, cover;
+   background-position: top bottom;
+   background-repeat: no-repeat;
+}
+.drawer-closed {
+  right: -600px;
+}
+.opacity-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 900;
+  background-color: rgba(0,0,0, 0.6);
+  display: none;
+  cursor: pointer;
+}
+.heading-drawer-1 {
+  font-family: 'Rubik Mono';
+  font-size: 3em;
+  color: white;
+  letter-spacing: 8px;
+  padding-top: 20px;
+  word-spacing: -20px;
+}
+.li-heading-dr {
+  font-family: 'NunitoSans-semi-Bold';
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 2em;
+  line-height: 1.6em;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+.li-heading-dr li {
+  list-style-type: none;
+  cursor: pointer;
+}
+.li-heading-dr li:hover {
+  opacity: 0.6;
+  transition: 1s;
+}
+.divider-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-top: 80px;
+  box-shadow: 1.5px 2.5px rgba(228, 228, 228, 0.6);
+}
+
+.learn-about-chapter .heading-drawer-1{
+  margin-top: 60px;
+}
+.paragraph-drawer1 {
+  font-family: "NunitoSans-Light";
+  color: #f1f1f1;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+  font-size: 1.6em;
+  margin-top: 35px;
+  margin-left: 20px;
 }
