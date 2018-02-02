@@ -236,7 +236,7 @@ html, body {
   text-align: right;
 }
 #drawer-1 {
-  background-color: #222744;
+  background-color: rgba(34, 39, 68, 0.85);
   background-image: linear-gradient(to left bottom,#0000 50%,rgba(126, 100, 142, 0.1) 0);
    background-size: 100% 100%, cover;
    background-position: top bottom;
@@ -289,7 +289,7 @@ html, body {
   box-shadow: 1.5px 2.5px rgba(228, 228, 228, 0.6);
 }
 
-.learn-about-chapter .heading-drawer-1{
+.learn-about-chapter, .learn-second-chapter, .learn-third-chapter .heading-drawer-1{
   margin-top: 60px;
 }
 .paragraph-drawer1 {
@@ -300,4 +300,23 @@ html, body {
   font-size: 1.6em;
   margin-top: 35px;
   margin-left: 20px;
+}
+
+/*Drawer-2*/
+
+#drawer-2 {
+  background-color: rgba(3, 29, 21,0.85);
+  background-image: linear-gradient(to left bottom,#0000 50%,rgba(16, 3, 21, 0.15) 0);
+   background-size: 100% 100%, cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+/*Drawer-3*/
+#drawer-3{
+  background-color: rgba(0, 0, 0, 0.45);
+  background-image: linear-gradient(to left bottom,#0000 50%,rgba(243, 208, 128, 0.1) 0);
+   background-size: 100% 100%, cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
 }
