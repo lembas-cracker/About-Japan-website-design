@@ -182,7 +182,7 @@ html, body {
   padding: 15px;
 }
 .dropdown-menu > li > a:hover {
-  background-color: rgba(246, 229, 255, 0.4);
+  background-color: rgba(246, 229, 255, 0.85);
   transition: 1s;
   background-image: none;
 }
