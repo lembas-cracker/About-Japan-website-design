@@ -133,9 +133,6 @@ html, body {
   line-height: 1.2;
   margin-top: 30px;
 }
-.octicon-mark-github {
-
-}
 .gthb-button:hover {
   text-decoration: none;
   color: #f1a2c7;
@@ -309,7 +306,7 @@ html, body {
 
 /*Drawer-3*/
 #drawer-3{
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.4);
   background-image: linear-gradient(to left bottom,#0000 50%,rgba(243, 208, 128, 0.1) 0);
    background-size: 100% 100%, cover;
    background-position: bottom;
