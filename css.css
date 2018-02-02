@@ -198,7 +198,10 @@ html, body {
   background-image: none;
 }
 .dropdown-menu, .dropdown-menu > li > a {
-  width: 15vw;
+  width: 18vw;
+}
+.dropdown-menu {
+  width: 18vw;
 }
 .dropdown-menu > li > a {
   text-align: center;
