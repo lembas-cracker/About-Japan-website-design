@@ -156,9 +156,9 @@
 <div class="container final-words">
   <div class="row justify-content-center">
     <h2 class="heading" style="margin-bottom: 0;">From the very begining, join our journey across the country and get a lot of knowledge in just one place.</h2>
-    <div class="col-4">
-    <p class="paragraph p-about" style="margin-top: 0;">We're learning a lot and so will you.</p>
-    <img src="final-geisha.png" class="offset-md-3" style="width: 128px; height: 128px; margin-top: 25px;">
+    <div class="col text-center">
+    <p class="paragraph p-about text-center" style="margin-top: 0;">We're learning a lot and so will you.</p>
+    <img src="final-geisha.png" class="geisha-img">
   </div>
   </div>
 </div>
@@ -171,18 +171,20 @@
   <div class="row justify-content-center">
       <h1 class="heading-drawer-1 text-center">Learn about...</h1>
       <div class="li-heading-dr col text-center">
-      <li class="click-handler-1">people</li>
-      <li class="click-handler-2">japanese language</li>
-      <li class="click-handler-3">religion</li>
-      <li class="click-handler-4">the arts</li>
-      <li class="click-handler-5">education</li>
-      <li class="click-handler-6">daily life and social customs</li>
+       <ul class="drawer-list">
+      <li scroll-to="#title-people">people</li>
+      <li scroll-to="#title-language">japanese language</li>
+      <li scroll-to="#title-religion">religion</li>
+      <li scroll-to="#title-arts">the arts</li>
+      <li scroll-to="#title-education">education</li>
+      <li scroll-to="#title-dailylife">daily life and social customs</li>
+    </ul>
       <div class="divider-bottom col-6 offset-md-3"></div>
       </div>
     </div>
     <div class="row justify-content-center">
      <div class="learn-about-chapter">
-      <h1 class="heading-drawer-1 text-center">People</h1>
+      <h1 id="title-people" class="heading-drawer-1 text-center">People</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">The Japanese people constitute the overwhelming majority of the population. During the Edo (Tokugawa) period (1603–1867), there was a social division of the populace into four classes—warrior, farmer, craftsman, and merchant—with a peer class above and an outcast class below.</p>
       <p class="paragraph paragraph-drawer1 text-left col-11">Insofar as a social class system does persist, it does not have the ethnic basis that can exist in multiracial societies, since the Japanese regard themselves as belonging to a single ethnic group. The few exceptions include those classified as resident aliens (particularly Koreans) and Japanese citizens of Ainu and, to a much lesser degree, Okinawan origin. Japan also has a small population of Chinese descent.</p>
      </div>
@@ -190,7 +192,7 @@
     <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
       <div class="learn-about-chapter2">
-        <h1 class="heading-drawer-1 text-center">Japanese Language</h1>
+        <h1 id="title-language" class="heading-drawer-1 text-center">Japanese Language</h1>
         <p class="paragraph paragraph-drawer1 text-left col-11">
           The introduction of the Chinese writing system and of Chinese literature about the 4th century CE enriched the Japanese vocabulary. Until that time Japanese had no written form, and at first Chinese characters (called <br>kanji "漢字" in Japanese) were used to write Japanese; by the 9th century two syllabaries, known collectively as kana (katakana "カタカナ" and hiragana <br>"ひらがな"), were developed from them. Since then, a combination of kanji and kana has been used for written Japanese.
       </div>
@@ -198,7 +200,7 @@
      <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
       <div class="learn-about-chapter3">
-        <h1 class="heading-drawer-1 text-center">Religion</h1>
+        <h1 id="title-religion" class="heading-drawer-1 text-center">Religion</h1>
         <p class="paragraph paragraph-drawer1 text-left col-11">
           The indigenous religion of Japan, Shintō, coexists with various sects of Buddhism, Christianity, and some ancient shamanistic practices, as well as a number of “new religions” that have emerged since the 19th century. Thus, it is typical for one person or family to believe in several Shintō gods and at the same time belong to a Buddhist sect.
         </p>
@@ -210,7 +212,7 @@
     <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
       <div class="learn-about-chapter4">
-        <h1 class="heading-drawer-1 text-center">The Arts</h1>
+        <h1 id="title-arts" class="heading-drawer-1 text-center">The Arts</h1>
         <p class="paragraph paragraph-drawer1 text-left col-11">
           Traditional handicrafts constitute some of Japan’s finest examples of visual arts. Notable are the various styles of pottery, lacquerwork, cloisonné, and bamboo ware, as well as papermaking, silk weaving, and cloth dyeing.<br>
           Western art forms have been fully embraced by the Japanese. Major cities often have several symphony orchestras, and Western-style painting, sculpture, and architecture are widely practiced.
@@ -224,7 +226,7 @@
     <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
       <div class="learn-about-chapter5">
-        <h1 class="heading-drawer-1 text-center">Education</h1>
+        <h1 id="title-education" class="heading-drawer-1 text-center">Education</h1>
         <p class="paragraph paragraph-drawer1 text-left col-11">
           Japan’s modern education system has been a key element in the country’s emergence as a highly industrialized country. The social and economic benefits of education long have been recognized in Japan, and education has been seen as the all-important means to achieve personal advancement. Thus, attending the “right” schools tends to become the critical factor in determining an individual’s ultimate social status and earning power.
         </p>
@@ -238,7 +240,7 @@
     <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
       <div class="learn-about-chapter6">
-        <h1 class="heading-drawer-1 text-center">Daily life and social customs</h1>
+        <h1 id="title-dailylife" class="heading-drawer-1 text-center">Daily life and social customs</h1>
         <p class="paragraph paragraph-drawer1 text-left col-11">
           Contemporary Japanese society is decidedly urban. Not only do the vast majority of Japanese live in urban settings, but urban culture is transmitted throughout the country by a mass media largely concentrated in Tokyo. Young urban Japanese in particular have become known for their conspicuous consumption and their penchant for trends and fads that quickly go in and out of fashion.
         </p>
@@ -263,15 +265,17 @@
   <div class="row justify-content-center">
       <h1 class="heading-drawer-1 text-center">Learn about...</h1>
       <div class="li-heading-dr col text-center">
-      <li class="click-handler-7">government</li>
-      <li class="click-handler-8">constitutional framework</li>
-      <li class="click-handler-9">economy</li>
+    <ul class="drawer-list">
+      <li scroll-to="#title-government">government</li>
+      <li scroll-to="#title-constitution">constitutional framework</li>
+      <li scroll-to="#title-economy">economy</li>
+    </ul>
       <div class="divider-bottom col-6 offset-md-3"></div>
       </div>
     </div>
     <div class="row justify-content-center">
      <div class="learn-second-chapter">
-      <h1 class="heading-drawer-1 text-center">Government</h1>
+      <h1 id="title-government" class="heading-drawer-1 text-center">Government</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         Japan is divided into 47 prefectures, 43 of which are ken (prefectures proper); of the remainder, Tokyo is a to (metropolitan prefecture), Hokkaido is a dō (district), and Ōsaka and Kyōto are fu (urban prefectures). Prefectures, which are administered by governors and assemblies, vary considerably both in area and in population. The largest prefecture is Hokkaido, with an area of 32,221 square miles (83,453 square km), while the smallest is Kagawa, with 724 square miles (1,876 square km).
       </p>
@@ -287,7 +291,7 @@
 <div class="divider-bottom col-6 offset-md-3"></div>
 <div class="row justify-content-center">
      <div class="learn-second-chapter2">
-      <h1 class="heading-drawer-1 text-center" style="font-size: 2.5em;">constitutional framework</h1>
+      <h1 id="title-constitution" class="heading-drawer-1 text-center" style="font-size: 2.5em;">constitutional framework</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         Japan’s constitution was promulgated in 1946 and came into force in 1947, superseding the Meiji Constitution of 1889. It differs from the earlier document in two fundamental ways: the principle of sovereignty and the stated aim of maintaining Japan as a peaceful and democratic country in perpetuity. The emperor, rather than being the embodiment of all sovereign authority, is the symbol of the state and of the unity of the people.
       </p>
@@ -299,7 +303,7 @@
   <div class="divider-bottom col-6 offset-md-3"></div>
   <div class="row justify-content-center">
      <div class="learn-second-chapter3">
-      <h1 class="heading-drawer-1 text-center">Economy</h1>
+      <h1 id="title-economy" class="heading-drawer-1 text-center">Economy</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         Japan is remarkable for its extraordinarily rapid rate of economic growth in the 20th century, especially in the first several decades after World War II. This growth was based on unprecedented expansion of industrial production and the development of an enormous domestic market, as well as on an aggressive export trade policy. <br>
         The service sector has come to dominate the economy in terms of its overall proportion of the gross domestic product (GDP) and of employment.
@@ -327,15 +331,17 @@
   <div class="row justify-content-center">
       <h1 class="heading-drawer-1 text-center">Learn about...</h1>
       <div class="li-heading-dr col text-center">
-      <li class="click-handler-10">Plant and animal life</li>
-      <li class="click-handler-11">climate</li>
-      <li class="click-handler-12">natural wonders</li>
+      <ul class="drawer-list">
+      <li scroll-to="#title-plant">Plant and animal life</li>
+      <li scroll-to="#title-climate">climate</li>
+      <li scroll-to="#title-wonders">natural wonders</li>
+      </ul>
       <div class="divider-bottom col-6 offset-md-3"></div>
       </div>
     </div>
     <div class="row justify-content-center">
      <div class="learn-third-chapter">
-      <h1 class="heading-drawer-1 text-center">Plant and animal life</h1>
+      <h1 id="title-plant" class="heading-drawer-1 text-center">Plant and animal life</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         Much of the original vegetation has been replaced by agriculture or by the introduction of foreign species to the islands.<br>
         The laurel forest zone of evergreen, broad-leaved trees extends from the southwestern islands northward to the lowlands of northern Honshu. Camphor, pasanias, Japanese evergreen oaks, camellias, and hollies are typical trees, with various kinds of ferns as undergrowth.<br>
@@ -351,7 +357,7 @@
     <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
      <div class="learn-third-chapter2">
-      <h1 class="heading-drawer-1 text-center">Climate</h1>
+      <h1 id="title-climate" class="heading-drawer-1 text-center">Climate</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         In general, Japan’s climate is characterized as monsoonal (i.e., governed by wet and dry seasonal winds). The main influences are the country’s latitudinal extent, the surrounding oceans, and its proximity to the neighbouring Asian landmass. <br>
         The physical feature that most affects climate is the mountainous backbone of the islands. The ranges interrupt the monsoonal winds and cause the gloomy weather and heavy snows of winter along the Sea of Japan coast and the bright and windy winter weather along the Pacific.
@@ -364,7 +370,7 @@
   <div class="divider-bottom col-6 offset-md-3"></div>
     <div class="row justify-content-center">
      <div class="learn-third-chapter2">
-      <h1 class="heading-drawer-1 text-center">Natural wonders</h1>
+      <h1 id="title-wonders" class="heading-drawer-1 text-center">Natural wonders</h1>
       <p class="paragraph paragraph-drawer1 text-left col-11">
         The national treasure, hot springs are dotted all across the country. Japanese have really embraced this natural wonder and turned it into an inseparable part of culture. The springs can be enjoyed outside as well as inside in the spa center. Even the monkeys enjoy them in the parks!
       </p>

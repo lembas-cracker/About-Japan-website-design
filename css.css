@@ -20,11 +20,6 @@ html, body {
    margin: 0;
    padding: 0;
 }
- /*background-image: linear-gradient(to left bottom,#0000 45%,rgba(246, 229, 255, 0.6) 0);
-   background-size: 100% 40%, cover;
-   background-position: bottom;
-   background-repeat: no-repeat;
-   z-index: -5;*/
 
 #header {
   background-image: url("Header-img.jpg");
@@ -211,6 +206,11 @@ html, body {
 }
 .final-words {
   margin-top: 120px;
+}
+.geisha-img {
+  width: 128px;
+  height: 128px;
+  margin-top: 25px;
 }
 
 /*Drawers/Drawer-1*/
